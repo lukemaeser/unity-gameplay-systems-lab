@@ -58,11 +58,8 @@ Type is one of: Build (implement a small feature), Debug (reproduce and fix a bu
 
 ## Notes
 
-Short notes and verification checklists live in:
+Short notes for each lab (what it is, controls, and how I tested it) live in: `LAB_NOTES.md`
 
-LAB_NOTES.md (or DRILLS.md if you prefer that name)
+---
 
-## About
-
-Luke Maeser  
 Portfolio: https://www.lukemaeser.com
