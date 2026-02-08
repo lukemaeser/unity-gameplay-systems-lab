@@ -2,7 +2,7 @@
 
 A personal Unity lab where I build small, runnable prototypes to keep learning and explore gameplay systems in a focused way.
 
-The labs are small and isolated (new scene + scripts) so I can try ideas quickly, test them, and take notes on what worked. Sometimes the goal is to recreate a tiny piece of "feel" from a game I like, sometimes it's to practice a system pattern, and sometimes it's just to answer a question like: "What's the cleanest way to structure this in Unity?"
+Each lab is small and isolated (new scene + scripts) so I can try an idea quickly, test it, and capture what worked. Sometimes I'm recreating a tiny piece of "feel" from a game, sometimes I'm practicing a system pattern, and sometimes I'm answering a question like: "What is the cleanest way to structure this in Unity?"
 
 ## What you’ll find here
 
@@ -14,15 +14,15 @@ Each lab is a self-contained folder with:
 Topics I tend to explore:
 - interaction mechanics and state
 - UI feedback and simple HUDs
-- lightweight AI/state machines
+- lightweight AI and state machines
 - data-driven patterns (ScriptableObjects)
-- performance-minded patterns (ex: object pooling, reusing objects instead of constantly creating/destroying them)
+- performance-minded patterns (object pooling, avoiding unnecessary allocations)
 - 3D math fundamentals (vectors, dot/cross, local vs world space)
-- movement / physics feel tuning (accel/decel, damping, small “juice” touches)
+- movement and feel tuning (accel/decel, damping, small "juice" touches)
 
 ## Start here (recommended labs)
 
-Once there are a few labs in the repo, I'll keep a short "best of" list here for quick browsing:
+Once there are a few labs in the repo, I'll keep a short "best of" list here:
 - TBD
 
 ## Quick start
@@ -31,18 +31,17 @@ Once there are a few labs in the repo, I'll keep a short "best of" list here for
 2. Open Unity Hub → Add project from disk.
 3. Select the repo folder (the one containing `Assets/`, `Packages/`, and `ProjectSettings/`).
 4. Open any lab scene from:
-   `Assets/Labs/GameplaySystems/<YYYY-MM>/<YYYY-MM-DD_Type_ShortName>/Scenes/`
+   `Assets/Labs/GameplaySystems/<YYYY-MM>/<YYYY-MM-DD_<Type>_<ShortName>>/Scenes/`
 
-> Note: Unity will regenerate `Library/` locally on first open. That folder is intentionally not tracked in git.
+> Note: Use the Unity version listed in `ProjectSettings/ProjectVersion.txt`. Unity will regenerate `Library/` locally on first open (not tracked in git).
 
 ## Repo layout
-
 ```text
 Assets/
   Labs/
     GameplaySystems/
       YYYY-MM/
-        YYYY-MM-DD_Type_ShortName/
+        YYYY-MM-DD_<Type>_<ShortName>/
           Scenes/
           Scripts/
           Prefabs/    (optional)
@@ -55,9 +54,9 @@ ProjectSettings/
 ```
 
 Each lab is one of the following types:
-1. **Build** - implement a small feature
-2. **Debug** - reproduce and fix a bug  
-3. **Explain** - sketch and explain a system, then implement the smallest slice
+- **Build** - implement a small feature
+- **Debug** - reproduce and fix a bug
+- **Explain** - sketch and explain a system, then implement the smallest slice
 
 ## Notes
 
