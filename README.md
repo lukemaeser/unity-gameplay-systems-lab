@@ -54,7 +54,10 @@ Packages/
 ProjectSettings/
 ```
 
-Type is one of: Build (implement a small feature), Debug (reproduce and fix a bug), or Explain (sketch and explain a system, then implement the smallest slice).
+Each lab is one of the following types:
+1. **Build** - implement a small feature
+2. **Debug** - reproduce and fix a bug  
+3. **Explain** - sketch and explain a system, then implement the smallest slice
 
 ## Notes
 
